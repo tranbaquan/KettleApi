@@ -48,7 +48,7 @@ public class DatabaseConnectionDemo {
             databaseMeta.setDBName("dw_src_qlbn");
             databaseMeta.setDBPort("1433");
             databaseMeta.setUsername("tranbaquan");
-            databaseMeta.setPassword("01642128235tbQ");
+            databaseMeta.setPassword("123456789");
 
             Database database = new Database(null, databaseMeta);
             database.connect();
