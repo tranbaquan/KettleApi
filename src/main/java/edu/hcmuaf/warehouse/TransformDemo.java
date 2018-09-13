@@ -56,7 +56,7 @@ public class TransformDemo {
             // thuc hien cac chuyen doi
             trans.execute(null);
             trans.waitUntilFinished();
-// ngat ket noi toi co so du lieu
+            // ngat ket noi toi co so du lieu
             database1.disconnect();
             database2.disconnect();
             database.disconnect();
